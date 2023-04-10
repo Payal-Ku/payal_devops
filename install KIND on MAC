@@ -1,0 +1,10 @@
+brew install kind
+brew install kubectl
+kubectl version --short
+kind version
+kind create cluster
+kind create cluster --name kind
+kind create cluster --config kind-config.yaml
+kind get clusters
+kubectl get nodes
+kind delete cluster --name kind
