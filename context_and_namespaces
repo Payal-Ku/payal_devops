@@ -1,0 +1,18 @@
+Context:
+
+ kubectl config get-contexts
+ kubectl config use-context kind-kind
+ kubectl config current-context
+ 
+ 
+ 
+ 
+Namespaces:
+
+kubectl get namespace
+kubectl create namespace
+kubectl create ns my-ns
+kubectl get ns
+kubectl run nginx --image=nginx --namespace=my-ns
+kubectl get pods
+kubectl get pods --namespace=my-ns
